@@ -16,3 +16,10 @@ wget https://blog.pekanbaru.go.id/repo/fail2ban/saveip.conf -O ${localdir}/savei
 wget https://blog.pekanbaru.go.id/repo/fail2ban/sshd.local -O ${localdir}/sshd.local
 sudo cp ${localdir}/saveip.conf /etc/fail2ban/action.d/saveip.conf
 sudo cp ${localdir}/sshd.local /etc/fail2ban/jail.d/sshd.local
+#
+echo "Installation completed..."
+echo "Please execute"
+echo "   $ sudo systemctl restart fail2ban"
+echo ""
+
+#
