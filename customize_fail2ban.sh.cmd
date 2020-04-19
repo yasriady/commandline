@@ -8,6 +8,8 @@
 # Date: Pekanbaru (Riau) Indonesia, 2020-Apr-19
 # Modified by Dedy Yasriady by adding time, failures, servername (hostname)
 #
-#sudo scp -P9722 dedy@srvutils.pekanbaru.go.id:/var/www/blog.pekanbaru.go.id/wip/saveip.conf ./
-echo "Hello Daffa dan Azzam !"
-
+localdir=/tmp/my-fail2ban-addon 
+sudo ls -l ${localdir}
+rm ${localdir}/*
+mkdir ${localdir}
+wget https://blog.pekanbaru.go.id/repo/fail2ban/saveip.conf -O ${localdir}/saveip.conf
