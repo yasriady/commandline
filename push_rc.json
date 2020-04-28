@@ -1,1 +1,6 @@
-{"baseUrl": "https://push.pekanbaru.go.id"}
+{
+    "var1": "Value1@Blog.pekanbaru.go.id",
+    "baseUrl": "https://push.pekanbaru.go.id/",
+    "md5Checksum": "RrWSokKjj4HRP|VEDrpR8EQcrQ|ECYc4ETK53r8ZHi|1587958421",
+    "source": ""
+}
